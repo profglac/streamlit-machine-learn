@@ -1,0 +1,15 @@
+# Ignorar arquivos .env
+.env
+
+# Ignorar outras pastas/arquivos sensíveis
+*.pyc
+__pycache__/
+.idea/
+.vscode/
+
+# Ignorar imagem específica
+construcao_civil_2.jpg
+
+# Ignorar os arquivos abaixo
+iris.csv
+iris_sample.csv

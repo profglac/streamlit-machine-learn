@@ -1,29 +1,22 @@
 # Minha Aplicação Streamlit
 
-Este projeto é uma aplicação web desenvolvida com Streamlit para Visão computacional. A aplicação permite ler uma imagem e dar detalhes referentes a ela.
+Este projeto é uma aplicação web desenvolvida com Streamlit para avaliar Modelos de Machine Learning. A aplicação permite ler um arquivo CSV com os dados e analisar cada modelo mostrando a performance de cada um deles.
 
 ## Configuração
 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/profglac/streamlit-computer-vision.git
+   git clone https://github.com/profglac/streamlit-machine-learn.git
    ```
 
-2. Crie um arquivo `.env` com as seguintes variáveis:
-
-   ```plaintext
-   API_KEY=suachaveapi
-   OUTRA_VARIAVEL=valor
-   ```
-
-3. Instale as dependências:
+2. Instale as dependências:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Execute a aplicação:
+3. Execute a aplicação:
    ```bash
    streamlit run app.py
    ```
